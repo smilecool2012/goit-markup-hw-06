@@ -360,23 +360,20 @@
         <div class="footer-subscribe">
             <h3 class="footer-subscribe-title">Subscribe</h3>
             <form class="footer-form form">
-                <div class="subscribe-form">
-                    <label class="subscribe-label">
-                        <div class="form-content">
-                            <input
-                                    type="email"
-                                    class="footer-subscribe-content"
-                                    name="footer-email"
-                                    placeholder="E-mail"
-                                    required
-                            />
-                        </div>
-                    </label>
-                </div>
+                <label class="subscribe-label">
+                    <input
+                            type="email"
+                            class="footer-subscribe-content"
+                            name="footer-email"
+                            placeholder="E-mail"
+                            required
+                    />
+                </label>
                 <button type="submit" class="subscribe-btn">Subscribe
                     <svg class="footer-subscribe-icon" width="24" height="24">
                         <use href="./images/icons.svg#icon-send"></use>
-                    </svg></button>
+                    </svg>
+                </button>
             </form>
         </div>
     </div>
@@ -388,7 +385,7 @@
                 <use href="./images/icons.svg#icon-modal-close"></use>
             </svg>
         </button>
-        <h3 class="modal-title">Leave your contacts and we will call you back</h3>
+        <p class="modal-title">Leave your contacts and we will call you back</p>
         <form class="modal-form form">
             <div class="form-group">
                 <label class="form-label">
@@ -407,7 +404,6 @@
                     </div>
                 </label>
             </div>
-            <div class="form-group">
                 <label class="form-label">
                     <span class="input-title">Phone</span>
                     <div class="form-control">
@@ -424,8 +420,6 @@
                         </svg>
                     </div>
                 </label>
-            </div>
-            <div class="form-group">
                 <label for="email" class="form-label">
                     <span class="input-title">Email</span>
                     <div class="form-control">
@@ -441,8 +435,7 @@
                         </svg>
                     </div>
                 </label>
-            </div>
-            <div class="form-group text-area-group">
+            <div class="text-area-group">
                 <label class="form-label">
                     <span class="input-title">Comment</span>
                     <div class="form-control">
@@ -454,7 +447,7 @@
                     </div>
                 </label>
             </div>
-            <div class="form-group privacy-group">
+            <div class="privacy-group">
                 <input type="checkbox"
                        class="form-checkbox visually-hidden"
                        id="policy"
@@ -469,9 +462,7 @@
                     Policy</a>
                 </label>
             </div>
-            <div class="submit-btn">
                 <button type="submit" class="form-btn btn">Send</button>
-            </div>
         </form>
     </div>
 </div>
