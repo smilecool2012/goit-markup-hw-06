@@ -387,12 +387,11 @@
         </button>
         <p class="modal-title">Leave your contacts and we will call you back</p>
         <form class="modal-form form">
-            <div class="form-group">
-                <label class="form-label">
+                <label for="name" class="form-label">
                     <span class="input-title">Name</span>
-                    <div class="form-control">
                         <input
                                 type="text"
+                                id="name"
                                 class="form-input"
                                 name="name"
                                 required
@@ -401,14 +400,12 @@
                         <svg class="form-icon" width="22" height="24">
                             <use href="./images/icons.svg#icon-person"></use>
                         </svg>
-                    </div>
                 </label>
-            </div>
-                <label class="form-label">
+                <label for="phone" class="form-label">
                     <span class="input-title">Phone</span>
-                    <div class="form-control">
                         <input
                                 type="tel"
+                                id="phone"
                                 class="form-input"
                                 name="phone"
                                 pattern="^\+[0-9]{3}\s\((\d+)\)-\d{3}-\d{2}-\d{2}"
@@ -418,11 +415,9 @@
                         <svg class="form-icon" width="22" height="24">
                             <use href="./images/icons.svg#icon-phone"></use>
                         </svg>
-                    </div>
                 </label>
                 <label for="email" class="form-label">
                     <span class="input-title">Email</span>
-                    <div class="form-control">
                         <input
                                 type="email"
                                 id="email"
@@ -433,18 +428,15 @@
                         <svg class="form-icon" width="22" height="24">
                             <use href="./images/icons.svg#icon-email"></use>
                         </svg>
-                    </div>
                 </label>
             <div class="text-area-group">
                 <label class="form-label">
                     <span class="input-title">Comment</span>
-                    <div class="form-control">
                 <textarea
                         name="message"
                         class="form-textarea"
                         placeholder="Text input"
                 ></textarea>
-                    </div>
                 </label>
             </div>
             <div class="privacy-group">
